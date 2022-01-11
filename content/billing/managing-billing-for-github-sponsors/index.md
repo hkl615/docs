@@ -8,7 +8,7 @@ redirect_from:
 versions:
   fpt: '*'
   ghec: '*'
-children:
+children:18+
   - /about-billing-for-github-sponsors
   - /upgrading-a-sponsorship
   - /downgrading-a-sponsorship
