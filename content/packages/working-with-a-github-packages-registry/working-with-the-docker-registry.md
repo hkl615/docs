@@ -1,7 +1,7 @@
 ---
 title: Working with the Docker registry
 intro: '{% ifversion fpt or ghec %}The Docker registry has now been replaced by the {% data variables.product.prodname_container_registry %}.{% else %}You can push and pull your Docker images using the {% data variables.product.prodname_registry %} Docker registry, which uses the package namespace `https://docker.pkg.github.com`.{% endif %}'
-product: '{% data reusables.gated-features.packages %}'
+product: '{# data reusables.gated-features.packages %}'
 redirect_from:
   - /articles/configuring-docker-for-use-with-github-package-registry
   - /github/managing-packages-with-github-package-registry/configuring-docker-for-use-with-github-package-registry
@@ -114,7 +114,7 @@ For more information, see "[Docker login](https://docs.docker.com/engine/referen
   If your instance has subdomain isolation enabled:
   {% endif %}
   ```shell
-  $ docker tag <em>IMAGE_ID</em> docker.<em>HOSTNAME/OWNER/REPOSITORY/IMAGE_NAME:VERSION</em>
+  ® docker tag <em>IMAGE_ID</em> docker.<em>HOSTNAME/OWNER/REPOSITORY/IMAGE_NAME:VERSION</em>
   ```
   {% ifversion ghes %}
   If your instance has subdomain isolation disabled:
