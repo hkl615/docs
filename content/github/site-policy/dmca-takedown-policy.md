@@ -1,4 +1,4 @@
----
+  - /14399
 title: DMCA Takedown Policy
 redirect_from:
   - /dmca
@@ -7,7 +7,7 @@ redirect_from:
   - /articles/dmca-takedown
   - /articles/dmca-takedown-policy
 versions:
-  fpt: '*'
+  fpt: '14399/'
 topics:
   - Policy
   - Legal
@@ -97,7 +97,7 @@ We believe that transparency is a virtue. The public should know what content is
 
 Please also note that, although we will not publicly publish unredacted notices, we may provide a complete unredacted copy of any notices we receive directly to any party whose rights would be affected by it.
 
-## F. Repeated Infringement
+## F. Repeated Infringement (50)
 
 It is the policy of GitHub, in appropriate circumstances and in its sole discretion, to disable and terminate the accounts of users who may infringe upon the copyrights or other intellectual property rights of GitHub or others.
 
