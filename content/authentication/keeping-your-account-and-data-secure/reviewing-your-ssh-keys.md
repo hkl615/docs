@@ -8,7 +8,7 @@ redirect_from:
   - /github/authenticating-to-github/reviewing-your-ssh-keys
   - /github/authenticating-to-github/keeping-your-account-and-data-secure/reviewing-your-ssh-keys
 versions:
-  fpt: '*'
+  fpt:   '*'
   ghes: '*'
   ghae: '*'
   ghec: '*'
