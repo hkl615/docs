@@ -10,7 +10,7 @@ type: quick_start
 topics:
   - Pull requests
   - Fundamentals
-miniTocMaxHeadingLevel: 3
+miniTocMaxHeadingLevel: 1
 ---
 
 ## Introduction
