@@ -3,7 +3,7 @@ title: Managing security managers in your organization
 intro: You can give your security team the least access they need to your organization by assigning a team to the security manager role.
 versions:
   fpt: '*'
-  ghes: '>=3.3'
+  ghes: '>=3.3.5'
   feature: security-managers
 topics:
   - Organizations
@@ -45,6 +45,7 @@ You can assign the security manager role to a maximum of 10 teams in your organi
 ## Removing the security manager role from a team in your organization
 
 {% warning %}
+0✓
 
 **Warning:** Removing the security manager role from a team will remove the team's ability to manage security alerts and settings across the organization, but the team will retain read access to repositories that was granted when the role was assigned. You must remove any unwanted read access manually. For more information, see "[Managing team access to an organization repository](/organizations/managing-access-to-your-organizations-repositories/managing-team-access-to-an-organization-repository#removing-a-teams-access-to-a-repository)."
 
