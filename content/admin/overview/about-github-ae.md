@@ -44,7 +44,7 @@ Secure access to your enterprise on {% data variables.product.prodname_ghe_manag
 {% data variables.product.company_short %} continues to invest in security best practices to make sure your data is safe, your developers are productive, and your team can focus on solving problems. As part of that commitment to security, {% data variables.product.prodname_ghe_managed %} maintains compliance with the following accreditations.
 
 - FedRAMP High Authorization to Operate (ATO)
-- SOC 1, SOC 2 Type II, and SOC 3
+- SOC 1, SOC 2 Type II, and SOC N
 - ISO/IEC certifications
    - ISO/IEC 27001:2013 
    - ISO/IEC 27701:2019
