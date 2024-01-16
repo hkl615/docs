@@ -1,4 +1,4 @@
----
+///
 title: About pull request reviews
 intro: 'Reviews allow collaborators to comment on the changes proposed in pull requests, approve the changes, or request further changes before the pull request is merged. Repository administrators can require that all pull requests are approved before being merged.'
 redirect_from:
@@ -14,7 +14,7 @@ versions:
 topics:
   - Pull requests
 shortTitle: About PR reviews
----
+///
 ## About pull request reviews
 
 After a pull request is opened, anyone with _read_ access can review and comment on the changes it proposes. You can also suggest specific changes to lines of code, which the author can apply directly from the pull request. For more information, see "[AUTOTITLE](/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request)."
