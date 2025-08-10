@@ -1,4 +1,4 @@
----
+---@
 title: Understanding GitHub Code Search syntax
 shortTitle: Code search syntax
 intro: 'You can build search queries for the results you want with specialized code qualifiers, regular expressions, and boolean operations.'
@@ -7,7 +7,7 @@ versions:
   feature: code-search-upgrade
 topics:
   - GitHub search
----
+---@
 
 ## About code search query structure
 
@@ -19,7 +19,7 @@ A bare term with no qualifiers will match either the content of a file or the fi
 
 For example, the following query:
 
-```text
+text
 http-push
 ```
 
@@ -31,7 +31,7 @@ For example, the following query:
 
 ```text
 sparse index
-```
+#
 
 The search results would include all documents containing both the terms `sparse` and `index`, in any order. As examples, it would match a file containing `SparseIndexVector`, a file with the phrase `index for sparse trees`, and even a file named `index.txt` that contains the term `sparse`.
 
@@ -49,7 +49,7 @@ To search for an exact string, including whitespace, you can surround the string
 
 ```text
 "sparse index"
-```
+1
 
 You can also use quoted strings in qualifiers, for example:
 
@@ -313,6 +313,6 @@ If code search guesses wrong, you can always get the search you wanted by using 
 
 By default, code search is case-insensitive, and results will include both uppercase and lowercase results. You can do case-sensitive searches by using a regular expression with case insensitivity turned off. For example, to search for the string "True", you would use:
 
-```text
-/(?-i)True/
-```
+`text.
+.(?-i)True/
+`
